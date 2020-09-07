@@ -1,0 +1,101 @@
+/* ... Style Sheet for Victor Teppa Professional Resume ... */
+
+/* ---------------------- Header - Body - Footer --------------------------- */
+header{
+	text-align: center;
+	padding: 1%;
+/*	border-style: dotted;
+	border-color: #000000;
+	border-width: 1px;*/
+}
+
+body{
+	margin: 2%;          /* Space between all Body and Browser */
+}
+
+footer{
+	/*background: #666666;*/
+	clear: both;           /* do not float footer, keep it away from sections */
+	padding: 1%;
+	text-align: center;
+  /*  align-content: center;*/
+}
+
+/* ---------------------------------------------------------------------------*/
+h1 {
+	color: #3075b2;
+	font-size: 200%;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/* -------------- LINKS --------------- */
+
+a{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 120%;
+	text-align: center;
+	color: #ffffff;
+	background-color: #3075b2;
+	width: auto;
+	padding: .4%;
+	margin: 0 auto;
+	text-decoration: none; /* get rid off underline design */
+}
+
+a:hover{
+	background: #b3b3b3;
+	color: #3075b2;
+}
+
+a:focus{
+	background: #3075b2;
+	color: #3075b2;
+}
+
+a:active{
+	
+}
+
+/* ---------------------------------------------------------------------------*/
+
+h2{
+	color: #3075b2;
+	font-weight: bold;
+	font-size: 130%;
+}
+
+section{
+	width: 98%;
+	padding: 10px;
+	margin: 5px;
+}
+
+p{
+	line-height: 180%;
+}
+
+img	{
+	width: 100%;
+	opacity: 30%;
+}
+
+
+ul{
+	line-height: 180%;
+	list-style-type: square;
+	list-style-image: url('../imgs/list_icon.png');
+	margin: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
