@@ -78,6 +78,7 @@ p{
 img	{
 	width: 100%;
 	opacity: 30%;
+	background-image: url('../imgs/footer.png');
 }
 
 
@@ -92,6 +93,8 @@ ul{
 li{
 	padding-left: 2px;
 }
+
+
 
 
 
