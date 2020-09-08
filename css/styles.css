@@ -3,11 +3,12 @@
 /* ---------------------- Header - Body - Footer --------------------------- */
 header{
 	text-align: center;
-	padding: 1%;
+
 }
 
 body{
 	margin: 2%;          /* Space between all Body and Browser */
+
 }
 
 footer{
@@ -17,7 +18,7 @@ footer{
 	margin-right: 4px;
 	text-align: center;
 	opacity: 30%;
-	background-image: url(../imgs/footer.png);
+	background-image: url('../imgs/footer.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -29,9 +30,13 @@ footer{
 
 /* ---------------------------------------------------------------------------*/
 h1 {
+	background-color: #eaf1fa;
 	color: #3075b2;
 	font-size: 200%;
 	font-family: Helvetica,Arial,sans-serif;
+	margin: 1%;
+	padding: .5%;
+	letter-spacing: 2px;
 }
 
 /* -------------- LINKS --------------- */
@@ -81,10 +86,6 @@ p{
 	line-height: 200%;
 }
 
-img	{
-	width: 99%;
-	opacity: 30%;
-}
 
 
 ul{
@@ -98,6 +99,8 @@ ul{
 li{
 	padding-left: 2px;
 }
+
+
 
 
 
