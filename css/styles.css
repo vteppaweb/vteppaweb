@@ -16,8 +16,10 @@ body{
 footer{
 	/*background: #666666;*/
 	clear: both;           /* do not float footer, keep it away from sections */
-	padding: 1%;
+	/*padding: 20%;*/
 	text-align: center;
+	width: 100%;
+	opacity: 30%;
   /*  align-content: center;*/
 }
 
@@ -76,9 +78,8 @@ p{
 }
 
 img	{
-	width: 100%;
+	width: 99%;
 	opacity: 30%;
-	background-image: url('../imgs/footer.png');
 }
 
 
@@ -93,6 +94,8 @@ ul{
 li{
 	padding-left: 2px;
 }
+
+
 
 
 
