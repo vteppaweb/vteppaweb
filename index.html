@@ -5,6 +5,7 @@
 	<title>Resume - Victor Teppa</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="icon" type="image/png" href="imgs/icon.png">
+	<script src="js/javascript.js"></script>
 </head>
 <body>
 	<header>
@@ -17,14 +18,15 @@
 		</div>
 		<div class="div_nav_class">
 			<nav>
-				<a href="" class="a_active">Summary</a>
-				<a href="" >Experience</a>
-				<a href="" >Education</a>
-				<a href="" >Skills</a>
+				<a href="" class="a_active" onmouseover="description(this.innerHTML)" onmouseout="clear_description()">Summary</a>
+				<a href="" onmouseover="description(this.innerHTML)" onmouseout="clear_description()" >Experience</a>
+				<a href="" onmouseover="description(this.innerHTML)" onmouseout="clear_description()" >Education</a>
+				<a href="" onmouseover="description(this.innerHTML)" onmouseout="clear_description()" >Skills</a>
 			</nav>
 		</div>
 	</header>
 	<section class="main_section">
+		<div id="description" class="description_class"></div>
 		<h2 class="h2_class">Professional Summary</h2>
 		<p class="p_body_section">
 			I am a software designer and developer with over 10 years of overseas creativity and passionate experience in the design and development of web applications. I have a high level of academic education based on my bachelor degree in computer science in Venezuela. 
