@@ -1,51 +1,16 @@
-/* ... Style Sheet for Victor Teppa Professional Resume ... */
 
-/* BROWSERs Pre Fixes 
-
-header, footer{
-	background: #666666;
-	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
-	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
-	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
-	background: linear-gradient(#666666 0%, #00b7ea 100%); 
-
-}
-*/
-
-/* ---------------------- Header - Body - Footer --------------------------- */
-header{
-	text-align: center;
-	margin-bottom: 1%;
-}
 
 body{
 	
 	background: #283F51;
 	margin: 0px;           /* Space between all Body and Browser */
+	/*padding-top: 2%;*/
 }
-
-footer{
-	clear: both;          /* do not float footer, keep it away from sections */
-	padding: 15%;
-	text-align: center;
-	opacity: 25%;
-	background-image: url('../imgs/footer.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100% 100%; /* 100% right and 100% bottom */
-	border-bottom-color: #DC5F1A;
-	border-bottom-style: solid;
-	border-bottom-width: 4px;
-	border-top-color: #DC5F1A;
-	border-top-style: solid;
-	border-top-width: 4px;
-
-}
-
-/* ---------------------------------------------------------------------------*/
 
 
 /* -------------- LINKS --------------- */
+
+
 
 nav a{
 	display: block;
@@ -54,15 +19,15 @@ nav a{
 	font-family: Helvetica,Arial,Times,optima;
 	text-align: center;
 	color: #ECEEEF;
-	width: 80% auto;
-	padding: 0.8%;
+	width: auto;
+	padding: 1%;
 	margin: 1.2%;                                                        
 	text-decoration: none; /* get rid off underline design */
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 	border-radius: 9px;
 	border-color: #ffffff;
 	border-style: solid;
-	border-width: 0.3px;
+	border-width: 1px;
 
 }
 
@@ -70,19 +35,7 @@ nav a:hover{
 	background: #DC5F1A;
 	color: #ffffff;
 	border-color: #ffffff;
-	/* Browser Support */
-	-webkit-transition-property: background;
-	-moz-transition-property: background;
-	-o-transition-property: background;
-
-	-webkit-transition-duration: .7s;
-	-moz-transition-duration: .7s;
-	-o-transition-duration: .7s;
-	
-	-webkit-transition-delay: .1s;
-	-moz-transition-delay: .1s;
-	-o-transition-delay: .1s;
-
+	text-decoration: none;
 }
 
 nav a:focus{
@@ -92,6 +45,18 @@ nav a:focus{
 }
 
 
+	.fixed-header{
+		width: 100%;
+		background: #082C4D;
+		text-align: center;
+		border-bottom-color: #DC5F1A;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+	}
+
+	.fixed-header{
+		top:0;
+	}
 
 
 .main_section{
@@ -99,26 +64,10 @@ nav a:focus{
 	width: 100%;
 	padding-top: 0.8%;
 	padding-bottom: 2%;
-	margin-top: 1%;
 	border-top-color: #DC5F1A;
 	border-top-style: solid;
 	border-top-width: 2px;
-	opacity: 90%;
 }
-
-.description_class{
-	
-	color: #84919B;
-	height: 5px;
-	width: auto;
-	text-align: center;
-	font-weight: bold;
-	font-size: 100%;
-	font-family: Helvetica,Arial,Times,optima;
-
-}
-
-
 
 .p_body_section{
 	line-height: 200%;
@@ -144,15 +93,15 @@ nav a:focus{
 	border-top-width: 2px;
 	padding-top: 2%;
 	padding-bottom: 0.1%;
-	background: rgba(0,39,76,0.8);
+	background: #082C4D;
 }
-
 
 .div_nav_class{
 	padding-top: 0.1%;
 	padding-bottom: 0.1%;
 	margin-top: 0.5%;
 	margin-bottom: -0.4%;
+
 
 }
 
@@ -195,11 +144,14 @@ nav a:focus{
 }
 
 .p_footer{
-	text-align: center;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	color: #ffffff;
-	font-family: Helvetica,Arial,Times,optima;
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		color: #000000;
+		font-weight: bold;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		color: #84919B;
 }
 
 
@@ -222,38 +174,38 @@ nav a:focus{
 
 
 
+
+
+
+
 /* Media Query for Big Screens */
 @media all and (min-width: 978px){
 
-	header{
+
+	.fixed-header{
+		position: fixed;
+		width: 100%;
+		background: #082C4D;
 		text-align: center;
-		margin-bottom: 1%;
-		
-		
+		border-bottom-color: #DC5F1A;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+			/*background: rgba(0,39,76,0.8);*/
+	}
+
+	.fixed-header{
+		top:0;
 	}
 
 
 	body{
+		
 		background: #283F51;
 		margin: 0px;           /* Space between all Body and Browser */
+		padding-top: 80px;
+	}
 
-	}
-	footer{
-		clear: both;          /* do not float footer, keep it away from sections */
-		padding: 15%;
-		text-align: center;
-		opacity: 25%;
-		background-image: url('../imgs/footer.png');
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 100% 100%; /* 100% right and 100% bottom */
-		border-bottom-color: #DC5F1A;
-		border-bottom-style: solid;
-		border-bottom-width: 4px;
-		border-top-color: #DC5F1A;
-		border-top-style: solid;
-		border-top-width: 4px;
-	}
+
 	nav a{
 		display: inline-block;
 		font-weight: bold;
@@ -261,32 +213,23 @@ nav a:focus{
 		font-family: Helvetica,Arial,Times,optima;
 		text-align: center;
 		color: #ECEEEF;
-		width: 100% auto;
-		padding: 0.4%;
-		margin: 0.2%;                                                        
+		width: auto;
+		padding: 0.5%;
+		margin: 0.1%;     
+		margin-right: 0.4%;                                                   
 		text-decoration: none; /* get rid off underline design */
 		letter-spacing: 3px;
 		border-radius: 9px;
 		border-color: #ffffff;
 		border-style: solid;
-		border-width: 0.3px;
+		border-width: 1.5px;
 	}
+
 	nav a:hover{
 		background: #DC5F1A;
 		color: #ffffff;
 		border-color: #ffffff;
-		/* Browser Support */
-		-webkit-transition-property: background;
-		-moz-transition-property: background;
-		-o-transition-property: background;
-
-		-webkit-transition-duration: .7s;
-		-moz-transition-duration: .7s;
-		-o-transition-duration: .7s;
-		
-		-webkit-transition-delay: .1s;
-		-moz-transition-delay: .1s;
-		-o-transition-delay: .1s;
+		text-decoration: none;
 
 	}
 	nav a:focus{
@@ -294,29 +237,20 @@ nav a:focus{
 		color: #ffffff;
 		border-color: #ffffff;
 	}
+
 	.main_section{
+
 		background: #ffffff;
 		width: 100%;
-		padding-top: 0.8%;
+		padding-top: 7%;
 		padding-bottom: 2%;
-		margin-top: 1%;
 		border-top-color: #DC5F1A;
 		border-top-style: solid;
 		border-top-width: 2px;
-		opacity: 90%;
 	}
 
-	.description_class{
-		
-		color: #84919B;
-		height: 5px;
-		width: auto;
-		text-align: center;
-		font-weight: bold;
-		font-size: 100%;
-		font-family: Helvetica,Arial,Times,optima;
 
-	}
+
 	.p_body_section{
 		line-height: 200%;
 		padding - top: 2%;
@@ -333,19 +267,23 @@ nav a:focus{
 		border-color: #ffffff;
 	}
 	.div_header_class{
-		border-top-color: #DC5F1A;
-		border-top-style: solid;
-		border-top-width: 2px;
-		padding-top: 2%;
+		background: #082C4D;
+		padding-top: 1%;
 		padding-bottom: 0.1%;
-		background: rgba(0,39,76,0.8);
+	
 	}
 	.div_nav_class{
 		padding-top: 0.1%;
 		padding-bottom: 0.1%;
 		margin-top: 0.5%;
-		margin-bottom: -0.4%;
+		margin-bottom: 1%;
 	}
+
+
+
+
+
+
 	.h1_header_class{
 		font-weight: bold;
 		color: #84919B;
@@ -371,19 +309,29 @@ nav a:focus{
 
 	.h2_header_class{
 		color: #4E6D6F;
-		padding-top: 0%;
+		padding-top: 0.4%;
+		padding-bottom: 0.3%;
 		margin-top: -0.2%;
-		margin-bottom: 2%;
+		margin-bottom: -0.1%;
 		letter-spacing: 8px;
 		font-family: Helvetica,Arial,Times,optima;
 		font-size: 120%;
 	}
+
+
+	img{
+		width: 100%;
+	}
+
 	.p_footer{
 		text-align: center;
 		margin-top: 2%;
 		margin-bottom: 2%;
-		color: #ffffff;
+		color: #000000;
+		font-weight: bold;
+		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
+		color: #84919B;
 	}
 	.ul_class{
 		line-height: 250%;
@@ -400,19 +348,5 @@ nav a:focus{
 		font-size: 120%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
+	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
