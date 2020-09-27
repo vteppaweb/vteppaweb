@@ -2,7 +2,7 @@
 
 body{
 	
-	background: #283F51;
+
 	margin: 0px;           /* Space between all Body and Browser */
 	/*padding-top: 2%;*/
 }
@@ -147,7 +147,6 @@ nav a:focus{
 		text-align: center;
 		margin-top: 2%;
 		margin-bottom: 2%;
-		color: #000000;
 		font-weight: bold;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
@@ -200,7 +199,6 @@ nav a:focus{
 
 	body{
 		
-		background: #283F51;
 		margin: 0px;           /* Space between all Body and Browser */
 		padding-top: 80px;
 	}
@@ -327,7 +325,6 @@ nav a:focus{
 		text-align: center;
 		margin-top: 2%;
 		margin-bottom: 2%;
-		color: #000000;
 		font-weight: bold;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
