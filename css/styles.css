@@ -89,7 +89,7 @@ nav a:focus{
 .div_header_class{
 	border-top-color: #DC5F1A;
 	border-top-style: solid;
-	border-top-width: 2px;
+	border-top-width: 3px;
 	padding-top: 2%;
 	padding-bottom: 0.1%;
 	background: #082C4D;
@@ -267,12 +267,20 @@ nav a:focus{
 		color: #ffffff;
 		border-color: #ffffff;
 	}
+
+
+
 	.div_header_class{
-		background: #082C4D;
+		border-top-color: #DC5F1A;
+		border-top-style: solid;
+		border-top-width: 3px;
 		padding-top: 1%;
 		padding-bottom: 0.1%;
-	
+		background: #082C4D;
+
 	}
+
+
 	.div_nav_class{
 		padding-top: 0.1%;
 		padding-bottom: 0.1%;
