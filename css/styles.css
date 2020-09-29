@@ -86,6 +86,16 @@ nav a:focus{
 	padding-bottom: 5%;
 }
 
+	.div_section_education{
+		
+		width: auto;
+		padding-left: 2%;
+		margin-top: 2%;
+		padding-bottom: 2%;
+		
+
+	}
+
 
 .p_body_section{
 	line-height: 200%;
@@ -241,7 +251,7 @@ nav a:focus{
 
 /* Media Query for Big Screens */
 /* *************************** */
-@media all and (min-width: 978px){
+@media all and (min-width: 768px){
 
 
 	.fixed-header{
@@ -306,20 +316,21 @@ nav a:focus{
 	.div_title_section{
 		margin-top: 10%;
 		margin-bottom: 1%;
+		padding-left: 3.5%;
 	}
 
 	.div_section{
 		width: 100%;
-		padding-top: 0.4%;
+		padding-top: 1.5%;
 		padding-bottom: 2%;
-		padding-left: 1%;
+		padding-left: 3.5%;
 	}
 
 	.div_section_1{
 		
 		width: 30%;
 		height: auto;
-		padding-left: 3%;
+		padding-left: 5.5%;
 		display: block;
 		float: left;
 		margin-top: 2%;
@@ -334,6 +345,27 @@ nav a:focus{
 		padding-left: 30%;
 		padding-top: 0.5%;
 		padding-bottom: 1%;
+	}
+
+	.div_section_education{
+		
+		width: 40%;
+		padding-left: 5%;
+		margin-top: 2%;
+		padding-bottom: 2%;
+		display: block;
+
+	}
+
+
+	.div_sub_title_section{
+		margin-top: 1%;
+		margin-bottom: 1%;
+		float: left;
+		display: inline-block;
+		width: 100%;
+		padding-left: 3.5%;
+	
 	}
 
 
