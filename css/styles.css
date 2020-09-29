@@ -349,8 +349,8 @@ nav a:focus{
 
 	.div_section_education{
 		
-		width: 40%;
-		padding-left: 5%;
+		width: auto;
+		padding-left: 2.5%;
 		margin-top: 2%;
 		padding-bottom: 2%;
 		display: block;
