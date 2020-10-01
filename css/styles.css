@@ -157,6 +157,11 @@ nav a:focus{
 	padding-bottom: 2%;
 }
 
+.linea{
+ 	border-bottom: 1.8px ridge;
+ 	margin: 3% 2% 1% 4%;
+ }	
+
 
 .p_body_section{
 	line-height: 200%;
@@ -386,6 +391,11 @@ nav a:focus{
 		display: block;
 
 	}
+
+	.linea{
+ 		border-bottom: 1.8px ridge;
+ 		margin: 3% 2% 1% 4%;
+ 	}	
 
 
 	.div_sub_title_section{
@@ -705,6 +715,11 @@ nav a:focus{
 
 	}
 
+	.linea{
+ 		border-bottom: 1.8px ridge;
+ 		margin: 3% 2% 1% 4%;
+ 	}	
+
 
 	.div_sub_title_section{
 		margin-top: 1%;
@@ -715,10 +730,6 @@ nav a:focus{
 		padding-left: 3.5%;
 	
 	}
-
-
-
-
 
 
 	.p_body_section{
@@ -1035,7 +1046,11 @@ nav a:focus{
 	
 	}
 
-
+ 	
+ 	.linea{
+ 		border-bottom: 1.8px ridge;
+ 		margin: 3% 2% 1% 4%;
+ 	}
 
 
 
