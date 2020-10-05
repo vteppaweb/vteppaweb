@@ -255,7 +255,7 @@ nav a:focus{
 	font-weight: normal;
 	font-size: 100%;
 	font-family: Helvetica,Arial,Times,optima;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .a_link_download:hover{
@@ -263,8 +263,13 @@ nav a:focus{
 	font-weight: normal;
 	font-size: 100%;
 	font-family: Helvetica,Arial,Times,optima;
-	text-decoration: none;
+	text-decoration: underline;
 }
+
+	img{
+		width: 100%;
+		margin-top: 5%;
+	}
 
 .p_footer{
 	text-align: center;
@@ -274,6 +279,10 @@ nav a:focus{
 	font-size: 100%;
 	font-family: Helvetica,Arial,Times,optima;
 	color: #84919B;
+}
+
+.fa-md{
+	padding: 0% 0.4% 0% 0%;
 }
 
    /* ------------------------------------------- */
@@ -494,6 +503,7 @@ nav a:focus{
 
 	img{
 		width: 100%;
+		margin-top: 5%;
 	}
 
 	.p_footer{
@@ -505,6 +515,11 @@ nav a:focus{
 		font-family: Helvetica,Arial,Times,optima;
 		color: #84919B;
 	}
+
+	.fa-md{
+		padding: 0% 0.5% 0% 0%;
+	}
+
 	.ul_class{
 		line-height: 230%;
 		list-style-type: square;
@@ -583,7 +598,7 @@ nav a:focus{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 
 	.a_link_download:hover{
@@ -591,7 +606,7 @@ nav a:focus{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 
    /* ------------------------------------------- */
@@ -813,6 +828,7 @@ nav a:focus{
 
 	img{
 		width: 100%;
+		margin-top: 5%;
 	}
 
 	.p_footer{
@@ -824,6 +840,11 @@ nav a:focus{
 		font-family: Helvetica,Arial,Times,optima;
 		color: #84919B;
 	}
+
+	.fa-md{
+		padding: 0% 0.4% 0% 0%;
+	}
+
 	.ul_class{
 		line-height: 230%;
 		list-style-type: square;
@@ -902,7 +923,7 @@ nav a:focus{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 
 	.a_link_download:hover{
@@ -910,7 +931,7 @@ nav a:focus{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 
    /* ------------------------------------------- */
@@ -1136,6 +1157,7 @@ nav a:focus{
 
 	img{
 		width: 100%;
+		margin-top: 5%;
 	}
 
 	.p_footer{
@@ -1147,6 +1169,13 @@ nav a:focus{
 		font-family: Helvetica,Arial,Times,optima;
 		color: #84919B;
 	}
+
+
+	.fa-md{
+		padding: 0% 0.4% 0% 0%;
+	}
+
+
 	.ul_class{
 		line-height: 230%;
 		list-style-type: square;
@@ -1219,7 +1248,7 @@ nav a:focus{
 
 	.div_link_download{
 		padding-top: 0.4%;
-		margin-left: 5%;
+		margin-left: 2%;
 		width: 30%;
 		height: 1.8em;
 		display: block;
@@ -1230,7 +1259,7 @@ nav a:focus{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 
 	.a_link_download:hover{
@@ -1238,7 +1267,7 @@ nav a:focus{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 
    /* ------------------------------------------- */
