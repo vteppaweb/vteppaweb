@@ -234,16 +234,10 @@ body{
 
 /* ----- Classes for <a> download tag ------ */
 
-.div_flecha_download{
-	width: 2%;
-	float: left;
-	display: block;
-	margin-left: 3%;
-}
 
 .div_link_download{
 		padding-top: 1.2%;
-		margin-left: 10%;
+		margin-left: 5%;
 		width: 40%;
 		height: 1.8em;
 		display: block;
@@ -254,7 +248,7 @@ body{
 	font-weight: normal;
 	font-size: 100%;
 	font-family: Helvetica,Arial,Times,optima;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .a_link_download:hover{
@@ -262,7 +256,7 @@ body{
 	font-weight: normal;
 	font-size: 100%;
 	font-family: Helvetica,Arial,Times,optima;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 	img{
@@ -570,16 +564,10 @@ body{
 
     /* ----- Classes for <a> download tag ------ */
 
-    .div_flecha_download{
-		width: 2%;
-		float: left;
-		display: block;
-		margin-left: 3%;
-    }
 
 	.div_link_download{
 		padding-top: 0.8%;
-		margin-left: 6.5%;
+		margin-left: 3%;
 		width: 25%;
 		height: 1.8em;
 		display: block;
@@ -590,7 +578,7 @@ body{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	.a_link_download:hover{
@@ -598,7 +586,7 @@ body{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
    /* ------------------------------------------- */
@@ -892,16 +880,9 @@ body{
 
     /* ----- Classes for <a> download tag ------ */
 
-    .div_flecha_download{
-		width: 2%;
-		float: left;
-		display: block;
-		margin-left: 3%;
-    }
-
 	.div_link_download{
 		padding-top: 0.6%;
-		margin-left: 6%;
+		margin-left: 3%;
 		width: 25%;
 		height: 1.8em;
 		display: block;
@@ -912,7 +893,7 @@ body{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	.a_link_download:hover{
@@ -920,7 +901,7 @@ body{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
    /* ------------------------------------------- */
@@ -1222,16 +1203,10 @@ body{
 
     /* ----- Classes for <a> download tag ------ */
 
-    .div_flecha_download{
-		width: 2%;
-		float: left;
-		display: block;
-		margin-left: 3%;
-    }
 
 	.div_link_download{
 		padding-top: 0.4%;
-		margin-left: 2%;
+		margin-left: 3%;
 		width: 30%;
 		height: 1.8em;
 		display: block;
@@ -1242,7 +1217,7 @@ body{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	.a_link_download:hover{
@@ -1250,7 +1225,7 @@ body{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
    /* ------------------------------------------- */
@@ -1550,16 +1525,9 @@ body{
 
     /* ----- Classes for <a> download tag ------ */
 
-    .div_flecha_download{
-		width: 2%;
-		float: left;
-		display: block;
-		margin-left: 3%;
-    }
-
 	.div_link_download{
 		padding-top: 0.4%;
-		margin-left: 2%;
+		margin-left: 3%;
 		width: 30%;
 		height: 1.8em;
 		display: block;
@@ -1570,7 +1538,7 @@ body{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	.a_link_download:hover{
@@ -1578,7 +1546,7 @@ body{
 		font-weight: normal;
 		font-size: 100%;
 		font-family: Helvetica,Arial,Times,optima;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
    /* ------------------------------------------- */
