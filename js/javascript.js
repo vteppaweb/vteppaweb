@@ -18,3 +18,9 @@
 		function clear_description(){  // Do not show nothing on Div 'description'
 			   document.getElementById('description').innerHTML = "";
 		}
+
+
+		// JavaScript Function for TOOLTIP 
+        function ready(){
+            $('[data-toggle="tooltip"]').tooltip();
+        }
