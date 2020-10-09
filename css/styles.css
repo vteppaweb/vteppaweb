@@ -94,6 +94,19 @@
 		border-radius: 2px;
 	}
 
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 		visibility: hidden;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+  		visibility: hidden;
+ 	 }
+
+
+
 
 /* ------------------------------------------- */
 
@@ -319,8 +332,8 @@
 
 
 	nav a:hover{
-		background: #DC5F1A;
-		color: #ffffff;
+		background: #fff;
+		color: #082C4D;
 		border-radius: 3px;
 		text-decoration: none;
 	}
@@ -334,10 +347,12 @@
 
 
 	.tooltip.bs-tooltip-bottom .tooltip-inner {
+		visibility: visible;
  		background:#4E6D6F !important;
  	}
 
  	.tooltip .arrow:before {
+ 		visibility: visible;
  		border-bottom-color:#4E6D6F !important;
   		border-top-color:#4E6D6F !important;
  	 }
