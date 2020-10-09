@@ -7,15 +7,13 @@
 	}
 
 
-
-
 	/* --------- Header - Title - Nav ------------ */
 
 	.fixed-header{
 		width: 100%;
 		background: #5177B6;
 		text-align: center;
-		border-bottom-color: #DC5F1A;
+		border-bottom-color: #fff;
 		border-bottom-style: solid;
 		border-bottom-width: 2px;
 
@@ -83,21 +81,18 @@
 
 
 	nav a:hover{
-		background: #DC5F1A;
-		color: #ffffff;
+		background: #fff;
+		color: #082C4D;
 		border-radius: 5px;
 		text-decoration: none;
 	}
 	
 
 	.a_active{
-		background: #DC5F1A;
-		color: #ffffff;
-		border-radius: 1px;
+		background: #fff;
+		color: #082C4D;
+		border-radius: 2px;
 	}
-
-
-
 
 
 /* ------------------------------------------- */
@@ -228,48 +223,48 @@
 /* ----- Classes for <a> download tag ------ */
 
 
-.div_link_download{
-		padding-top: 1.2%;
-		margin-left: 5%;
-		width: 40%;
-		height: 1.8em;
-		display: block;
+	.div_link_download{
+			padding-top: 1.2%;
+			margin-left: 5%;
+			width: 40%;
+			height: 1.8em;
+			display: block;
+		}
+
+	.a_link_download{
+		color: #3075b2;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
 	}
 
-.a_link_download{
-	color: #3075b2;
-	font-weight: normal;
-	font-size: 100%;
-	font-family: Helvetica,Arial,Times,optima;
-	text-decoration: none;
-}
+	.a_link_download:hover{
+		color: #DC5F1A;
+		font-weight: normal;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		text-decoration: none;
+	}
 
-.a_link_download:hover{
-	color: #DC5F1A;
-	font-weight: normal;
-	font-size: 100%;
-	font-family: Helvetica,Arial,Times,optima;
-	text-decoration: none;
-}
+	.footer_img{
+		width: 100%;
+		margin-top: 5%;
+	}
 
-.footer_img{
-	width: 100%;
-	margin-top: 5%;
-}
+	.p_footer{
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-weight: bold;
+		font-size: 100%;
+		font-family: Helvetica,Arial,Times,optima;
+		color: #84919B;
+	}
 
-.p_footer{
-	text-align: center;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	font-weight: bold;
-	font-size: 100%;
-	font-family: Helvetica,Arial,Times,optima;
-	color: #84919B;
-}
-
-.fa-md{
-	padding: 0% 0.4% 0% 0%;
-}
+	.fa-md{
+		padding: 0% 0.4% 0% 0%;
+	}
 
    /* ------------------------------------------- */
 
@@ -289,7 +284,7 @@
 		width: 100%;
 		background: #5177B6;
 		text-align: center;
-		border-bottom-color: #DC5F1A;
+		border-bottom-color: #fff;
 		border-bottom-style: solid;
 		border-bottom-width: 2px;
 			
@@ -316,7 +311,7 @@
 		color: #ECEEEF;
 		width: auto;
 		margin: -0.5% 0% -0.4% 0%;
-		padding: 0.8% 0.5% 0.8% 0.5%;                                                
+		padding: 0.6% 0.5% 0.8% 0.5%;                                                
 		text-decoration: none; /* get rid off underline design */
 		letter-spacing: 3px;
 		border-radius: 3px;	
@@ -332,12 +327,20 @@
 	
 
 	.a_active{
-		background: #DC5F1A;
-		color: #ffffff;
-		border-radius: 1px;
+		background: #fff;
+		color: #082C4D;
+		border-radius: 2px;
 	}
 
 
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+ 	 }
 
 
 
@@ -598,7 +601,7 @@
 		width: 100%;
 		background: #5177B6;
 		text-align: center;
-		border-bottom-color: #DC5F1A;
+		border-bottom-color: #fff;
 		border-bottom-style: solid;
 		border-bottom-width: 2px;
 			
@@ -628,7 +631,7 @@
 		color: #ECEEEF;
 		width: auto;
 		margin: -0.5% 0% -0.3% 0%;
-		padding: 0.7% 0.5% 0.7% 0.5%;                                                
+		padding: 0.6% 0.5% 0.7% 0.5%;                                                
 		text-decoration: none; /* get rid off underline design */
 		letter-spacing: 3px;
 		border-radius: 3px;	
@@ -636,21 +639,28 @@
 
 
 	nav a:hover{
-		background: #DC5F1A;
-		color: #ffffff;
+		background: #fff;
+		color: #082C4D;
 		border-radius: 3px;
 		text-decoration: none;
 	}
 	
 
 	.a_active{
-		background: #DC5F1A;
-		color: #ffffff;
-		border-radius: 1px;
+		background: #fff;
+		color: #082C4D;
+		border-radius: 2px;
 	}
 
 
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 	}
 
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+ 	 }
 
 
 	.div_title_section{
@@ -924,7 +934,7 @@
 		color: #ECEEEF;
 		width: auto;
 		margin: -0.5% 0% -0.3% 0%;
-		padding: 0.6% 0.5% 0.7% 0.5%;                                                
+		padding: 0.5% 0.5% 0.7% 0.5%;                                                
 		text-decoration: none; /* get rid off underline design */
 		letter-spacing: 3px;
 		border-radius: 3px;	
@@ -932,17 +942,26 @@
 
 
 	nav a:hover{
-		background: #DC5F1A;
-		color: #ffffff;
+		background: #fff;
+		color: #082C4D;
 		border-radius: 3px;
 		text-decoration: none;
 	}
 
 	.a_active{
-		background: #DC5F1A;
-		color: #ffffff;
-		border-radius: 1px;
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
 	}
+
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+ 	 }	
 }
 
 
@@ -967,7 +986,7 @@
 		width: 100%;
 		background: #5177B6;
 		text-align: center;
-		border-bottom-color: #DC5F1A;
+		border-bottom-color: #fff;
 		border-bottom-style: solid;
 		border-bottom-width: 2px;
 			
@@ -1005,18 +1024,27 @@
 
 
 	nav a:hover{
-		background: #DC5F1A;
-		color: #ffffff;
+		background: #fff;
+		color: #082C4D;
 		border-radius: 3px;
 		text-decoration: none;
 	}
 
 
 	.a_active{
-		background: #DC5F1A;
-		color: #ffffff;
-		border-radius: 1px;
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
 	}
+
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+ 	 }	
 
 
 	.div_title_section{
@@ -1291,7 +1319,7 @@
 		width: 100%;
 		background: #5177B6;
 		text-align: center;
-		border-bottom-color: #DC5F1A;
+		border-bottom-color: #fff;
 		border-bottom-style: solid;
 		border-bottom-width: 4px;
 			
@@ -1329,18 +1357,27 @@
 
 
 	nav a:hover{
-		background: #DC5F1A;
-		color: #ffffff;
+		background: #fff;
+		color: #082C4D;
 		border-radius: 3px;
 		text-decoration: none;
 	}
 	
 
 	.a_active{
-		background: #DC5F1A;
-		color: #ffffff;
-		border-radius: 1px;
+		background: #fff;
+		color: #082C4D;
+		border-radius: 3px;
 	}
+
+	.tooltip.bs-tooltip-bottom .tooltip-inner {
+ 		background:#4E6D6F !important;
+ 	}
+
+ 	.tooltip .arrow:before {
+ 		border-bottom-color:#4E6D6F !important;
+  		border-top-color:#4E6D6F !important;
+ 	 }
 
 
 	.div_title_section{
@@ -1594,5 +1631,8 @@
 	}
 
    /* ------------------------------------------- */
+
+
+
 
 }
