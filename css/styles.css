@@ -106,6 +106,18 @@
   		visibility: hidden;
  	 }
 
+ 	 .div_fecha{
+ 	 	padding: 6% 7% 0% 0%;
+ 	 	float: right;
+ 	 	font-size: 85%;
+		font-family: Helvetica,Arial,Times,optima;
+		font-style: italic;
+		font-weight: bold;
+		color: #3075b2;
+		letter-spacing: 1px;
+ 	 }
+
+
  
 
 
@@ -121,7 +133,7 @@
 	    color: #3075b2;
 		font-weight: bold;
 		font-size: 150%;
-		font-family: Helvetica,Arial,Times,optima,;
+		font-family: Helvetica,Arial,Times,optima;
 		letter-spacing: 1px;
 		padding-left: 3%;
 		padding-top: 1%;
@@ -152,11 +164,10 @@
 
 	.div_section_education{	
 		width: auto;
-		padding-left: 2%;
 		margin-top: 2%;
-		padding-bottom: 2%;
-	}
-
+		display: block;
+		padding: 1% 2.5% 1% 2.5%;
+}
 	.linea{
 	 	border-bottom: 1.3px ridge;
 	 	margin: 3% 2% 1% 4%;
@@ -208,12 +219,31 @@
 
 	.h2_employer{
 		line-height: 120%;
-		padding-left: 4%;
+		padding: 0.3% 0% 0% 4%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
+
+
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 4%;
+		color: #527BB9;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
 
 	.h2_location{
 		line-height: 120%;
@@ -396,11 +426,9 @@
 	.div_section_education{
 		
 		width: auto;
-		padding-left: 2.5%;
 		margin-top: 2%;
-		padding-bottom: 2%;
 		display: block;
-
+		padding: 1% 2.5% 1% 2.5%;
 	}
 
 	.linea{
@@ -539,18 +567,37 @@
 		padding-left: 4%;
 		color: #84919B;
 		font-weight: bold;
-		font-size: 120%;
+		font-size: 130%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
 
 	.h2_employer{
 		line-height: 120%;
-		padding-left: 4%;
+		padding: 0.3% 0% 0% 4%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
+
+
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 4%;
+		color: #527BB9;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
 
 	.h2_location{
 		line-height: 120%;
@@ -716,10 +763,9 @@
 	.div_section_education{
 		
 		width: auto;
-		padding-left: 2.5%;
 		margin-top: 2%;
-		padding-bottom: 2%;
 		display: block;
+		padding: 1% 2.5% 1% 2.5%;
 
 	}
 
@@ -864,18 +910,37 @@
 		padding-left: 4%;
 		color: #84919B;
 		font-weight: bold;
-		font-size: 120%;
+		font-size: 130%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
 
 	.h2_employer{
 		line-height: 120%;
-		padding-left: 4%;
+		padding: 0.3% 0% 0% 4%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
+
+
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 4%;
+		color: #527BB9;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
 
 	.h2_location{
 		line-height: 120%;
@@ -1100,10 +1165,10 @@
 	.div_section_education{
 		
 		width: auto;
-		padding-left: 2.5%;
 		margin-top: 2%;
-		padding-bottom: 2%;
 		display: block;
+		padding: 1% 2.5% 1% 2.5%;
+
 
 	}
 
@@ -1258,18 +1323,37 @@
 		padding-left: 4%;
 		color: #84919B;
 		font-weight: bold;
-		font-size: 120%;
+		font-size: 130%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
 
 	.h2_employer{
 		line-height: 120%;
-		padding-left: 4%;
+		padding: 0.3% 0% 0% 4%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
+
+
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 4%;
+		color: #527BB9;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
 
 	.h2_location{
 		line-height: 120%;
@@ -1433,10 +1517,9 @@
 	.div_section_education{
 		
 		width: auto;
-		padding-left: 2.5%;
 		margin-top: 2%;
-		padding-bottom: 2%;
 		display: block;
+		padding: 0.5% 2.5% 0.5% 2.5%;
 
 	}
 
@@ -1589,22 +1672,43 @@
 		padding-left: 4%;
 		color: #84919B;
 		font-weight: bold;
-		font-size: 120%;
+		font-size: 140%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
 
 	.h2_employer{
 		line-height: 120%;
-		padding-left: 4%;
+		padding: 0.3% 0% 0% 4%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
 		font-family: Helvetica,Arial,Times,optima;
 	}
 
+	.i_link{
+		padding: 0% 0.2% 0% 0%;
+	}
+
+    .a_link{
+  		line-height: 120%;
+		padding: 0% 0% 4% 4%;
+		color: #888888;
+		font-weight: normal;
+		text-decoration: none;
+		/*font-style: italic;*/
+		font-size: 120%;
+		font-family: Helvetica,Arial,Times,optima;    	
+    }
+
+    .a_link:hover{
+    	text-decoration: none;
+    }
+
+
+
 	.h2_location{
 		line-height: 120%;
-		padding-left: 4%;
+		padding: 0% 0% 0% 4%;
 		color: #84919B;
 		font-weight: normal;
 		font-size: 110%;
